@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Huffman编码", "Huffman编码\Huffman编码.vcxproj", "{025BEB80-2465-4E86-855B-3031775229AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{025BEB80-2465-4E86-855B-3031775229AA}.Debug|x64.ActiveCfg = Debug|x64
+		{025BEB80-2465-4E86-855B-3031775229AA}.Debug|x64.Build.0 = Debug|x64
+		{025BEB80-2465-4E86-855B-3031775229AA}.Debug|x86.ActiveCfg = Debug|Win32
+		{025BEB80-2465-4E86-855B-3031775229AA}.Debug|x86.Build.0 = Debug|Win32
+		{025BEB80-2465-4E86-855B-3031775229AA}.Release|x64.ActiveCfg = Release|x64
+		{025BEB80-2465-4E86-855B-3031775229AA}.Release|x64.Build.0 = Release|x64
+		{025BEB80-2465-4E86-855B-3031775229AA}.Release|x86.ActiveCfg = Release|Win32
+		{025BEB80-2465-4E86-855B-3031775229AA}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {720E86F6-28AB-4434-8E5A-F84FDA3F09EE}
+	EndGlobalSection
+EndGlobal
