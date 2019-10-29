@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>图像处理</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+<div align="center">
+    <form action="" enctype='multipart/form-data' method='POST'>
+        <h1>图像处理</h1>
+           <h2>信息安全  谌雯馨 刘思颖 赵婧宇</h2>
+        <h2>软件主要可以实现各类图像处理、图像识别以及水印的嵌入</h2>
+        <input type="file" name="file" style="margin-top:20px;"/>
+        <br>
+        <p style="font-size:18px;margin:0 auto;">想实现的图片效果：</p>
+        <table>
+            <tr>
+                <td>
+
+                    <select name="wanted">
+                         <option value="物体识别">物体识别</option>
+                         <option value="人脸识别">人脸识别</option>
+                         <option value="灰度图">灰度图</option>
+                        <option value="高斯模糊">高斯模糊</option>
+                        <option value="负片">负片</option>
+                        <option value="部分旋转">部分旋转</option>
+                        <option value="图像分割">图像分割</option>
+                       <option value="图像水印嵌入">图像水印嵌入</option>
+                       <option value="图像水印解码">图像水印解码</option>
+                         <option value="人脸轮廓识别">人脸轮廓识别</option>
+                        <option value="圈出人脸">圈出人脸</option>
+                   </select>
+
+                </td>
+                <td>
+                    <input type="submit" value="上传" class="button" style="margin-top:10px;margin-left:10px;"/>
+                </td>
+                <h1>如果选择水印嵌入，请输入水印内容</h1>
+                <input type="text" style="height:20px;width:100px;" name="mywatermark" />
+            </tr>
+        </table>
+
+
+    </form>
+    <table>
+        <tr>
+            <td>
+
+                    <img src="/static/{{pic}}">
+
+                    <h1>本张图片可能为：</h1>
+                    <h1>{{ppp}}</h1>
+
+
+            </td>
+            <td>
+                <div style="width:450px;">
+
+
+                </div>
+            </td>
+
+        </tr>
+
+    </table>
+
+</div>
+</body>
+</html>
+
